@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load the trained model
-model = joblib.load("churn_model.pkl")
+model = joblib.load("churn_model.sav")
 
 def main():
     st.title("Customer Churn Prediction App")
